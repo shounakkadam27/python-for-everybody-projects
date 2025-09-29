@@ -6,8 +6,8 @@ The projects demonstrate core Python programming concepts applied to real-world 
 
 # Repository Structure 
 control-flow/       # 
-strings-files/      # Text parsing & file handling
 data-structures/    # Dictionaries, lists, tuples
+strings-files/      # Text parsing & file handling
 web-scraping/       # HTML, XML, JSON parsing
 capstone/           # Final projects (APIs, Geodata)
 
