@@ -5,11 +5,11 @@ This repository contains selected assignments from the Python for Everybody Spec
 The projects demonstrate core Python programming concepts applied to real-world tasks such as text parsing, data handling, web scraping, working with APIs, and databases.
 
 # Repository Structure 
+capstone/           # Final projects (APIs, Geodata)
 control-flow/       # 
 data-structures/    # Dictionaries, lists, tuples
 strings-files/      # Text parsing & file handling
 web-scraping/       # HTML, XML, JSON parsing
-capstone/           # Final projects (APIs, Geodata)
 
 # Projects Included 
 Strings & Files:
