@@ -5,39 +5,42 @@ This repository contains selected assignments from the Python for Everybody Spec
 The projects demonstrate core Python programming concepts applied to real-world tasks such as text parsing, data handling, web scraping, working with APIs, and databases.
 
 # Repository Structure 
-capstone/           # Final projects (APIs, Geodata)
-control-flow/       # 
-data-structures/    # Dictionaries, lists, tuples
-strings-files/      # Text parsing & file handling
-web-scraping/       # HTML, XML, JSON parsing
+- **control-flow/** → Functions and conditionals  
+  - `gross_pay_calculator.py`  
 
-# Projects Included 
-Strings & Files:
-  -Word frequency counter in mbox-short.txt
-  -Most common email sender
-Data Structures:
-  -Counting email domains using dictionaries
-  -Using tuples to sort frequency counts
-Web Scraping & APIs
-  -HTML parsing with BeautifulSoup
-  -XML parsing (summing counts)
-  -JSON API (extracting location data / plus codes)
-Capstone
-  -Geodata project (geoload.py, geodump.py) – mapping locations from a dataset
+- **strings-files/** → Text parsing & file handling  
+  - `spam_confidence_average.py`  
+
+- **data-structures/** → Dictionaries, lists, tuples  
+  - `prolific_sender.py`  
+
+- **web-scraping/** → JSON parsing from web data  
+  - `json_comment_sum.py` 
+
+# Projects Included
+Control Flow
+Gross Pay Calculator (with overtime logic)
+Strings & Files
+Spam Confidence Average (extract floating point values and compute average from mbox-short.txt)
+Data Structures
+Prolific Sender (dictionary-based email frequency counter)
+Web (JSON)
+JSON Comment Sum (fetch JSON from URL, parse counts, compute total sum)
 
 # Usage
 Each project folder contains:
 Python script (.py)
-Sample input data (.txt, .xml, .json)
+Sample input data (.txt, .json)
 README.md with problem description + usage example 
 
 # Skills Demonstrated 
-File handling (reading, writing, parsing text files)
-Data structures (lists, dictionaries, tuples)
-Web scraping (HTML, XML, JSON with BeautifulSoup & urllib)
-Database operations with SQLite
-API requests and handling JSON data
-Writing reusable, well-documented Python scripts
+File handling (reading, parsing text files)
+Using Python data structures (lists, dictionaries, tuples)
+Writing functions and applying conditional logic
+Fetching web data with urllib
+Parsing JSON with Python
+Iterating through data and computing aggregates (counts, sums, averages)
+Writing clear, reusable, and well-documented Python scripts
 
 # Acknowledgements 
 Assignments adapted from the Python for Everybody Specialization by Dr. Charles Severance (University of Michigan, Coursera).
